@@ -4,15 +4,24 @@ import './App.css';
 
 const searchClient = algoliasearch(process.env.REACT_APP_ALGOLIA_APP_ID, process.env.REACT_APP_ALGOLIA_SEARCH_API_KEY);
 
+
 function Hit({ hit }) {
+  let categoriesList=[];
+  hit.categories.forEach((category,index)=>{
+    categoriesList.push( <li key={index}>{category}</li>)
+  })
   return (
     <article>
       <img src={hit.image} alt={hit.name} />
-      <p>{hit.categories[0]}</p>
       <h1>
         <Highlight attribute="name" hit={hit}/>
       </h1>
-      <p>${hit.price}</p>
+      <p><strong>💰 Price:</strong> ${hit.price}</p>
+      <p><strong>🗂️ Categories :</strong></p>
+        <ul>
+        {categoriesList}
+        </ul>
+      <p><strong>🚀 Popularity:</strong> {hit.popularity}</p>
     </article>
   );
 }
