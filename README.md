@@ -1,5 +1,5 @@
 # algolia-test
-A dummy project to test Algolia's API functionalities. It uses mock mobile phones products provided by Algolia as index.
+A dummy project in React to test Algolia's API search functionalities. It uses mock mobile phones products provided by Algolia as index.
 
 Following Getting Started with React InstantSearch Hooks tutorial: https://www.algolia.com/doc/guides/building-search-ui/getting-started/react-hooks/, and tweaking it on the go to satisfy my curiosity 🤓.
 
