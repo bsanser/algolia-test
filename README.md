@@ -1,9 +1,12 @@
 # algolia-test
 A dummy project to test Algolia's API functionalities. It uses mock mobile phones products provided by Algolia as index.
 
-Following Getting started with React InstantSearch Hooks tutorial: https://www.algolia.com/doc/guides/building-search-ui/getting-started/react-hooks/, and tweaking it on the go to satisfy my curiosity 🤓
+Following Getting Started with React InstantSearch Hooks tutorial: https://www.algolia.com/doc/guides/building-search-ui/getting-started/react-hooks/, and tweaking it on the go to satisfy my curiosity 🤓.
 
-[![Sneak peek video](https://www.awesomescreenshot.com/image/39330528?key=12e38f4c6220bae8948452678d18124e)](https://www.awesomescreenshot.com/video/16893924?key=d8a25a966852fd2912566dddda0f28b2)
+![image](https://user-images.githubusercontent.com/11380873/234864155-b1ad2285-9b63-49c7-bb7b-50b54c2c0ae2.png)
+
+
+Sneak peek video here: https://www.awesomescreenshot.com/video/16893924?key=d8a25a966852fd2912566dddda0f28b2
 
 
 ## Functionalities I would like to explore:
