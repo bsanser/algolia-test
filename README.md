@@ -15,6 +15,7 @@ Sneak peek video here: https://www.awesomescreenshot.com/video/16893924?key=d8a2
 - [ ] Sorting by price (asc and desc)
 - [ ] Sorting by popularity (asc and desc)
 - [ ] Searching by category
+- [ ] Pagination
 
 
 ## Instructions to run the project
